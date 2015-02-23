@@ -1,0 +1,15 @@
+<RCC>
+<qresource prefix="/">
+	<file alias="favicon.ico">../html/favicon.ico</file>
+	<file alias="medbase.db">../html/medbase.db</file>
+	<file alias="index.html">../html/index.html</file>
+	<file alias="js/min.js">../html/js/min.js</file>
+	<file alias="css/min.css">../html/css/min.css</file>
+	<file alias="tpls/search.html">../html/tpls/search.html</file>
+	<file alias="tpls/file.html">../html/tpls/file.html</file>
+	<file alias="fonts/glyphicons-halflings-regular.eot">../html/fonts/glyphicons-halflings-regular.eot</file>
+	<file alias="fonts/glyphicons-halflings-regular.svg">../html/fonts/glyphicons-halflings-regular.svg</file>
+	<file alias="fonts/glyphicons-halflings-regular.ttf">../html/fonts/glyphicons-halflings-regular.ttf</file>
+	<file alias="fonts/glyphicons-halflings-regular.woff">../html/fonts/glyphicons-halflings-regular.woff</file>
+</qresource>
+</RCC>

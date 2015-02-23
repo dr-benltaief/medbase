@@ -1,0 +1,23 @@
+<tabset>
+	<tab heading="Simple" active="tab1" select="tabF(1)">
+		<p><input type="text" class="form-control" placeholder="Spécialité" ng-model="terms.specialite" value=""></p>
+	</tab>
+	<tab heading="Avancée" active="tab2" select="tabF(2)">
+		<p><input type="text" class="form-control" placeholder="Spécialité" ng-model="terms.specialite"></p>
+		<p><input type="text" class="form-control" placeholder="DCI" ng-model="terms.dci"></p>
+		<p><input type="text" class="form-control" placeholder="Laboratoire" ng-model="terms.laboratoire"></p>
+	</tab>
+</tabset>
+
+<p><strong>Interface:</strong> {{search(tabN, "ADOL")}}</p>
+
+<marquee behavior="slide" direction="left">Ce résultat est à titre d'exemple seulement.</marquee>
+
+<div class="list-group">
+	<a href="#/file/1" class="list-group-item active">
+		<h4 class="list-group-item-heading">ADOL</h4>
+		<p class="list-group-item-text">PARACETAMOL</p>
+		<p class="list-group-item-text">Comprimé 500 MG</p>
+		<p class="list-group-item-text">Laboratoire: SAIPH</p>
+	</a>
+</div>
